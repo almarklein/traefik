@@ -91,7 +91,7 @@ The interval used by the exporter to push metrics to statsD.
 ```toml tab="File (TOML)"
 [metrics]
   [metrics.statsD]
-    pushInterval = 10s
+    pushInterval = "10s"
 ```
 
 ```yaml tab="File (YAML)"
